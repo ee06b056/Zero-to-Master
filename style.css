@@ -15,4 +15,10 @@ img {
     height: 500px;
     padding: 5px 20px;
     margin: 5px 5px;
+    transition: all 1s;
+}
+
+img:hover {
+    /* transform: skewX(-10deg); */
+    transform: skewY(10deg) skewX(-10deg);
 }
